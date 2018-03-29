@@ -28,6 +28,9 @@
 
 #define GRUB_ASCII_PCR 8
 #define GRUB_BINARY_PCR 9
+#define GRUB_KERNEL_CMDLINE_PCR 11
+#define GRUB_KERNEL_PCR 12
+#define GRUB_INITRD_PCR 14
 
 #define TPM_TAG_RQU_COMMAND 0x00C1
 #define TPM_ORD_Extend 0x14
